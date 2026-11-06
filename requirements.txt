@@ -1,0 +1,4 @@
+aiogram>=3,<4
+Pyrogram>=2,<3
+aiosqlite>=0.20,<1
+TgCrypto>=1,<2

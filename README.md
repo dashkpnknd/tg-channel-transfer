@@ -1,0 +1,11 @@
+# Telegram Channel Transfer
+
+Бот копирует сообщения из исходного Telegram-чата в целевой, хранит настройки в SQLite и позволяет управлять переносом через Telegram.
+
+## Запуск
+
+1. Создайте виртуальное окружение и установите зависимости: `pip install -r requirements.txt`.
+2. Скопируйте `local_config.example.py` в `local_config.py`. Задайте в окружении `BOT_TOKEN`, `TELEGRAM_API_ID`, `TELEGRAM_API_HASH` и `ADMIN_ID`.
+3. Запустите `python main_interface.py`.
+
+Файлы конфигурации с настоящими ключами, сессии и база `bot_memory.db` не добавляются в Git.

@@ -9,3 +9,9 @@ sessions/
 .DS_Store
 
 local_config.py
+.env
+.env.*
+*.session*
+*.sqlite*
+backups/
+logs/
